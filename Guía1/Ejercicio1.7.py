@@ -16,7 +16,7 @@ def algoritmo3(n, t=1):
 
 print(algoritmo3(3,1))
 
-def algoritmo4(n, t0=1, t1=1/3):
+def algoritmo4(n, t0=1, t1=1/3): #utiliza los dos términos anteriores para calcular el siguiente término en la secuencia. De hecho la estructura recursiva se parece a la de Fibonacci
     if n == 0:
         return t0
     elif n == 1:
@@ -34,6 +34,7 @@ def tabla():
         print(f"{i} {algoritmo1(i)} {algoritmo2(i)} {algoritmo3(i)} {algoritmo4(i)}")
 tabla()
 
+#El algoritmo 4, por su estructura recursiva de segundo orden da valores más exactos
 
 
 

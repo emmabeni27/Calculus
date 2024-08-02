@@ -34,7 +34,7 @@ def tabla():
         print(f"{i}         {algoritmo1(i)}             {algoritmo2(i)}             {algoritmo3(i)}             {algoritmo4(i)}")
 tabla()
 
-#El algoritmo 4, por su estructura recursiva de segundo orden da valores más exactos--> MAL en realidad, los más exactos son los otros 3. Al probar en valores más grandes, se van a números negativos, y esto pasa por la pérdida de precisión. No es así en los otros algoritmos.
+#El algoritmo 4, por su estructura recursiva de segundo orden da valores más exactos--> MAL en realidad, los más exactos son los otros 3. Al probar en valores más grandes, se van a números negativos, y esto pasa por la pérdida de precisión (error abs). No es así en los otros algoritmos.
 
 
 

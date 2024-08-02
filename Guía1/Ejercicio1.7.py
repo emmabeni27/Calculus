@@ -28,13 +28,13 @@ def algoritmo4(n, t0=1, t1=1/3): #utiliza los dos términos anteriores para calc
 #print(algoritmo4(3))
 
 def tabla():
-    valores=[x for x in range(1,4)]
+    valores=[x for x in range(1,20)]
     print(f" Algoritmo 1          Algoritmo 2          Algoritmo 3            Algoritmo 4")
     for i in valores:
-        print(f"{i} {algoritmo1(i)} {algoritmo2(i)} {algoritmo3(i)} {algoritmo4(i)}")
+        print(f"{i}         {algoritmo1(i)}             {algoritmo2(i)}             {algoritmo3(i)}             {algoritmo4(i)}")
 tabla()
 
-#El algoritmo 4, por su estructura recursiva de segundo orden da valores más exactos
+#El algoritmo 4, por su estructura recursiva de segundo orden da valores más exactos--> MAL en realidad, los más exactos son los otros 3. Al probar en valores más grandes, se van a números negativos, y esto pasa por la pérdida de precisión. No es así en los otros algoritmos.
 
 
 

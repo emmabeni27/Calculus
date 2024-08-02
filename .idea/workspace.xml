@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="EXPONENTES NEGATIVOS">
-      <change afterPath="$PROJECT_DIR$/Ejercicio5.py" afterDir="false" />
+    <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="ejercicio 5">
+      <change afterPath="$PROJECT_DIR$/Ejercicio1.6 alternativo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio1.6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1.4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1.5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Ejercicio1.6 alternativo.executor": "Run",
+    "Python.Ejercicio1.6.executor": "Run",
     "Python.Ejercicio3.executor": "Run",
     "Python.Ejercicio4.executor": "Run",
     "Python.Ejercicio5.executor": "Run",
@@ -133,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722614648014</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ejercicio 5">
+      <option name="closed" value="true" />
+      <created>1722615683135</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722615683135</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +156,7 @@
     <MESSAGE value="modulo" />
     <MESSAGE value="ejercicio 4" />
     <MESSAGE value="EXPONENTES NEGATIVOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="EXPONENTES NEGATIVOS" />
+    <MESSAGE value="ejercicio 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 5" />
   </component>
 </project>

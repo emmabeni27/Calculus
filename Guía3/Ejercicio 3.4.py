@@ -1,3 +1,4 @@
+import math
 def métodoBisección(inicio, fin, función):
     promedio = (inicio + fin) / 2
 
@@ -20,4 +21,4 @@ def métodoBisección(inicio, fin, función):
 
 
 # Ejemplo de uso:
-print(métodoBisección(0, 1, "x-2**(-x)"))
+print(métodoBisección(0, 1, "2.72**x-x**(2)+3*x-2"))

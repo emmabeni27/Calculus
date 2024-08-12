@@ -17,5 +17,7 @@ def métodoBisección(inicio, fin, función):
     elif medio * alto < 0:
         return métodoBisección(promedio, fin, función)
 
+    else:
+        return promedio
 
 print(métodoBisección(1, 2, "x**3-x-1"))

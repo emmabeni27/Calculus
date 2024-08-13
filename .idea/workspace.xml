@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="grafico">
-      <change afterPath="$PROJECT_DIR$/Bisección clase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TareaClase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gráficos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gráficos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bisección clase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio Clase/Bisección clase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gráficos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio Clase/Gráficos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TareaClase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio Clase/TareaClase.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     "Python.Ejercicio 3.10.executor": "Run",
     "Python.Ejercicio 3.11.executor": "Run",
     "Python.Ejercicio 3.2.executor": "Run",
-    "Python.Ejercicio 3.3.executor": "Debug",
+    "Python.Ejercicio 3.3.executor": "Run",
     "Python.Ejercicio 3.4.executor": "Run",
     "Python.Ejercicio 3.5.executor": "Run",
     "Python.Ejercicio 3.6.executor": "Run",
@@ -92,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gráficos.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\laris\Downloads\Cálculo_Numérico\Ejercicio Clase\Gráficos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723574471168</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="grafico">
+      <option name="closed" value="true" />
+      <created>1723581656582</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723581656582</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

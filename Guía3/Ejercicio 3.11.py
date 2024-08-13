@@ -12,4 +12,4 @@ def metodoNewtonRaphson(funcion, punto, error):
     else:
         return metodoNewtonRaphson(funcion, nuevo_punto, error)
 
-print(metodoNewtonRaphson("x**3-3", 2, 10^(-4) ))
+print(metodoNewtonRaphson("x**3-3", 2, 10**(-4) ))

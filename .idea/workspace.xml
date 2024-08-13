@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="grafico">
+      <change afterPath="$PROJECT_DIR$/Bisección clase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TareaClase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gráficos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gráficos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +50,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Bisección clase.executor": "Run",
     "Python.Ejercicio 3.10.executor": "Run",
     "Python.Ejercicio 3.11.executor": "Run",
     "Python.Ejercicio 3.2.executor": "Run",
-    "Python.Ejercicio 3.3.executor": "Run",
+    "Python.Ejercicio 3.3.executor": "Debug",
     "Python.Ejercicio 3.4.executor": "Run",
     "Python.Ejercicio 3.5.executor": "Run",
     "Python.Ejercicio 3.6.executor": "Run",
@@ -63,6 +68,7 @@
     "Python.Ejercicio4.executor": "Run",
     "Python.Ejercicio5.executor": "Run",
     "Python.Gráficos.executor": "Run",
+    "Python.TareaClase.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -71,6 +77,35 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\laris\Downloads\Cálculo_Numérico\Guía1" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Gráficos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Cálculo_Numérico" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gráficos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Gráficos" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -296,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723573297596</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="grafico">
+      <option name="closed" value="true" />
+      <created>1723574471168</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723574471168</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

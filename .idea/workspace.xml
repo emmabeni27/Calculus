@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="ejercicio 3.5">
-      <change afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.6.py" afterDir="false" />
+    <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="ejercicio 3.6">
+      <change afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Ejercicio 3.10.executor": "Run",
     "Python.Ejercicio 3.2.executor": "Run",
     "Python.Ejercicio 3.3.executor": "Run",
     "Python.Ejercicio 3.4.executor": "Run",
@@ -268,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723515931844</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ejercicio 3.6">
+      <option name="closed" value="true" />
+      <created>1723516389563</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723516389563</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,6 +296,7 @@
     <MESSAGE value="ejercicio 3.2" />
     <MESSAGE value="ejercicio 3.4" />
     <MESSAGE value="ejercicio 3.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 3.5" />
+    <MESSAGE value="ejercicio 3.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 3.6" />
   </component>
 </project>

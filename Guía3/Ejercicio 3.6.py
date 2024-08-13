@@ -15,5 +15,6 @@ def métodoBisección(inicio, fin, función):
         return métodoBisección(promedio, fin, función)
 
     else:
+
         return promedio
 print(métodoBisección(1, 2, "x**3-3")) #me tengo que el intervalo cumple existencia y unicidad

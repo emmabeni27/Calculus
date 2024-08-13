@@ -1,3 +1,5 @@
+import matplotlib
+import Numba
 
 def métodoBisección(inicio, fin, función):
     promedio = (inicio + fin) / 2

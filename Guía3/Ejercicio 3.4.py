@@ -1,4 +1,5 @@
 import math
+import matplotlib.pyplot as plt
 def métodoBisección(inicio, fin, función):
     promedio = (inicio + fin) / 2
 
@@ -6,8 +7,7 @@ def métodoBisección(inicio, fin, función):
     medio = eval(función.replace('x', str(promedio)).replace('X', str(promedio)))
     alto = eval(función.replace('x', str(fin)).replace('X', str(fin)))
 
-    if abs(medio) <= (
-            10 ** (-2)):  # Si no aclaro que es el absoluto, podría tomar a -0.29 como correcto, que es mayor a 0.01
+    if abs(medio) <= (10 ** (-2)):  # Si no aclaro que es el absoluto, podría tomar a -0.29 como correcto, que es mayor a 0.01
         return promedio
 
     elif bajo * medio < 0:

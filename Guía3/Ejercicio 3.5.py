@@ -5,7 +5,7 @@ def métodoBisección(inicio, fin, función):
     medio = eval(función.replace('x', str(promedio)).replace('X', str(promedio)))
     alto = eval(función.replace('x', str(fin)).replace('X', str(fin)))              # no olvidar la función eval!!!
 
-    if abs(medio) <= (10 ** (-2)):  #si no aclaro que es el absoluto, podría tomar a -0.29 como correcto, que es mayor a 0.01
+    if abs(medio) <= (10 ** (-4)):  #si no aclaro que es el absoluto, podría tomar a -0.29 como correcto, que es mayor a 0.01
         return promedio
 
     elif bajo * medio < 0:

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="grafico">
-      <change beforePath="$PROJECT_DIR$/Bisección clase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio Clase/Bisección clase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gráficos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio Clase/Gráficos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TareaClase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio Clase/TareaClase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,33 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Bisección clase.executor": "Run",
-    "Python.Ejercicio 3.10.executor": "Run",
-    "Python.Ejercicio 3.11.executor": "Run",
-    "Python.Ejercicio 3.2.executor": "Run",
-    "Python.Ejercicio 3.3.executor": "Run",
-    "Python.Ejercicio 3.4.executor": "Run",
-    "Python.Ejercicio 3.5.executor": "Run",
-    "Python.Ejercicio 3.6.executor": "Run",
-    "Python.Ejercicio1.3.executor": "Run",
-    "Python.Ejercicio1.6 alternativo.executor": "Run",
-    "Python.Ejercicio1.6.executor": "Run",
-    "Python.Ejercicio1.7.executor": "Run",
-    "Python.Ejercicio1.8.executor": "Run",
-    "Python.Ejercicio2.1.executor": "Run",
-    "Python.Ejercicio3.executor": "Run",
-    "Python.Ejercicio4.executor": "Run",
-    "Python.Ejercicio5.executor": "Run",
-    "Python.Gráficos.executor": "Run",
-    "Python.TareaClase.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Bisección clase.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.6 alternativo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio2.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gráficos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TareaClase.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\laris\Downloads\Cálculo_Numérico\Ejercicio Clase" />
       <recent name="C:\Users\laris\Downloads\Cálculo_Numérico\Guía1" />
     </key>
   </component>
@@ -344,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723581656582</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="grafico">
+      <option name="closed" value="true" />
+      <created>1723582087646</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723582087646</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

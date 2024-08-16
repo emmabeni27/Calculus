@@ -18,30 +18,30 @@ def derivada_segunda(funcion, x):
             2 * eval(funcion.replace('x', str(x)).replace('X', str(x))) +
             eval(funcion.replace('x', str(x - h)).replace('X', str(x - h)))) / (h ** 2)
 
-def metodoNewtonRaphson(funcion, error, inicio, fin):
-    h = 10 ** (-10)  # si es MUUUCHO MAS GRANDE, lo toma como cero y no puede dividir por cero!
+def verificaciones( dsa, dsb, bajo, alto):
+    if (bajo * alto) > 0 or dsb * dsa < 0:
+        return False
+    return True
 
-    #verificaciones
-    #1) derivada distinta de cero--> se verifica teoricamente, seria un for de muuuchos pasos
+
+def metodoNewtonRaphson(funcion, error, inicio, fin, max_iter=1000): #fijo un maximo de iteraciones permitidas, para el caso en que el metodo no converja
+
+    iter = 0
+
+    h = 10 ** (-10)  # si es MUUUCHO MAS GRANDE, lo toma como cero y no puede dividir por cero!
 
     bajo = eval(funcion.replace('x', str(inicio)).replace('X', str(inicio)))
     alto = eval(funcion.replace('x', str(fin)).replace('X', str(fin)))
 
+    dsa = derivada_segunda(funcion, fin)
+    dsb = derivada_segunda(funcion, inicio)
 
-    if bajo*alto > 0:  #2) la funcion cambia de signo en el intervalo
-        return "No cumple las condiciones."
+    if not verificaciones(dsa, dsb, bajo, alto):
+        return "No cumple las condiciones para aplicar Newton-Raphson."
 
-    #para elegir el punto
-    else:
-        dsa = derivada_segunda(funcion, fin)
-        dsb = derivada_segunda(funcion, inicio)
+    punto = float(elegirPunto(dsa, dsb, inicio, fin, alto, bajo)) # para elegir el punto
 
-        punto = float(elegirPunto(dsa, dsb, inicio, fin, alto, bajo))
-
-        if dsb * dsa < 0:
-            # 3) la derivada segunda NO cambia de signo en el intervalo dado
-            return "No cumple las condiciones para aplicar Newton-Raphson."
-
+    while iter < max_iter:
         f = eval(funcion.replace('x', str(punto)).replace('X', str(punto)))
         derivada = (eval(funcion.replace('x', str(punto + h)).replace('X', str(punto + h))) - f) / h
 
@@ -52,9 +52,12 @@ def metodoNewtonRaphson(funcion, error, inicio, fin):
 
         if abs(f) < error:
             return nuevo_punto
-        else:
-            return metodoNewtonRaphson(funcion, error, nuevo_punto, fin)
 
+        if nuevo_punto < inicio or nuevo_punto > fin:
+            return "El nuevo punto está fuera del intervalo dado."
+
+        punto = nuevo_punto
+        iter+=1
 
 
 
@@ -63,3 +66,4 @@ print(metodoNewtonRaphson("x-math.cos(x)", 10 ** (-4), 0, math.pi / 2))
 print(metodoNewtonRaphson("x**3 + 3*x**2 - 1", 10 ** (-4), -4, 0))
 print(metodoNewtonRaphson("x - 0.8 - 0.2 * math.sin(x)", 10 ** (-4), 0, math.pi / 2))
 
+#si fuera recursico, sería más complejo controlar las iteraciones y condición de corte

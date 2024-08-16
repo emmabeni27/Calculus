@@ -1,7 +1,5 @@
-#FUNCIONA PARA CASO STANDARD EN QUE SE PASE UN PUNTO COMO PARAMETRO
 def metodoNewtonRaphson(funcion, punto, error):
 
-    #primera derivada distinta de 0
 
     h=10**(-10)
 
@@ -18,7 +16,6 @@ def metodoNewtonRaphson(funcion, punto, error):
     else:
         return metodoNewtonRaphson(funcion, nuevo_punto, error)
 
+print(metodoNewtonRaphson("x**2 -3", 2, 10**(-4)))
 
-
-
-
+#1.7320508075688794

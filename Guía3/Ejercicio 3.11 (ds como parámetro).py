@@ -13,10 +13,7 @@ def elegirPunto(dsa, dsb, inicio, fin, alto, bajo):
 
 
 def derivada_segunda(funcion, x):
-    h = 10 ** (-10)
-    return (eval(funcion.replace('x', str(x + h)).replace('X', str(x + h))) -
-            2 * eval(funcion.replace('x', str(x)).replace('X', str(x))) +
-            eval(funcion.replace('x', str(x - h)).replace('X', str(x - h)))) / (h ** 2)
+    return eval(funcion.replace('x', str(x)).replace('X', str(x)))
 
 def verificaciones( dsa, dsb, bajo, alto):
     if (bajo * alto) > 0 or dsb * dsa < 0:
@@ -24,7 +21,7 @@ def verificaciones( dsa, dsb, bajo, alto):
     return True #si sale en el return del False, nunca pasa por acá!!!
 
 
-def metodoNewtonRaphson(funcion, error, inicio, fin, max_iter=1000): #fijo un maximo de iteraciones permitidas, para el caso en que el metodo no converja
+def metodoNewtonRaphson(funcion, error, inicio, fin, d_s, max_iter=1000): #fijo un maximo de iteraciones permitidas, para el caso en que el metodo no converja
 
     iter = 0
 
@@ -33,9 +30,9 @@ def metodoNewtonRaphson(funcion, error, inicio, fin, max_iter=1000): #fijo un ma
     bajo = eval(funcion.replace('x', str(inicio)).replace('X', str(inicio)))
     alto = eval(funcion.replace('x', str(fin)).replace('X', str(fin)))
 
-    dsa = derivada_segunda(funcion, fin)
+    dsa = derivada_segunda(d_s, fin)
     print(dsa)
-    dsb = derivada_segunda(funcion, inicio)
+    dsb = derivada_segunda(d_s, inicio)
 
     if not verificaciones(dsa, dsb, bajo, alto):
         return "No cumple las condiciones para aplicar Newton-Raphson."
@@ -63,11 +60,7 @@ def metodoNewtonRaphson(funcion, error, inicio, fin, max_iter=1000): #fijo un ma
 
 
 
-print(metodoNewtonRaphson("x**3 - 2*x**2 - 5", 10 ** (-4), 1, 4))
-print(metodoNewtonRaphson("x-math.cos(x)", 10 ** (-4), 0, math.pi / 2))
-print(metodoNewtonRaphson("x**3 + 3*x**2 - 1", 10 ** (-4), -4, 0))
-print(metodoNewtonRaphson("x - 0.8 - 0.2 * math.sin(x)", 10 ** (-4), 0, math.pi / 2))
-
-#si fuera recursico, sería más complejo controlar las iteraciones y condición de corte
-
-#PASAR DERIVADA SEGUNDA COMO PARÁMETRO, PQ SI NO TENGO EL ERROR DEL MÉTODO DE DERIVADA, AUQE ADEMÁS ME DA EN EL PUNTO NADA MÁS
+print(metodoNewtonRaphson("x**3 - 2*x**2 - 5", 10 ** (-4), 1, 4, "6*x-4"))
+print(metodoNewtonRaphson("x-math.cos(x)", 10 ** (-4), 0, math.pi / 2,"math.cos(x)"))
+print(metodoNewtonRaphson("x**3 + 3*x**2 - 1", 10 ** (-4), -4, 0,"6*x+6"))
+print(metodoNewtonRaphson("x - 0.8 - 0.2 * math.sin(x)", 10 ** (-4), 0, math.pi / 2,"0.2*math.sin(x)"))

@@ -11,8 +11,12 @@ def métodoBisección(inicio, fin, función):
 
     if(bajo*alto<0):
 
+#se presupone función continua, con derivada distinta de 0 para todo punto del intervalo
+
         promedio = (inicio + fin) / 2
         medio = eval(función.replace('x', str(promedio)).replace('X', str(promedio)))
+
+#sabiendo que la condiciones se cumplen (entró al if) continúo con el método
 
         if abs(medio) <= (10 ** (-2)):  #si no aclaro que es el absoluto, podría tomar a -0.29 como correcto, que es mayor a 0.01
             return promedio

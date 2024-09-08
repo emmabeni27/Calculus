@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="11 funcionando (iterativo y recursivo)">
-      <change afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.11 (ds como parámetro).py" afterDir="false" />
+    <list default="true" id="d9bf52b7-8816-49b1-b6a4-4b149f9d5beb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Ejercicio Clase/ej clase spline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.11 iterativo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.11 iterativo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guía3/Ejercicio 3.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guía3/Ejercicio 3.2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,37 +44,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Bisección clase.executor": "Run",
-    "Python.Ejercicio 3.10.executor": "Run",
-    "Python.Ejercicio 3.11 (ds como parámetro).executor": "Run",
-    "Python.Ejercicio 3.11 bis.executor": "Run",
-    "Python.Ejercicio 3.11 iterativo.executor": "Run",
-    "Python.Ejercicio 3.11 recursivo.executor": "Run",
-    "Python.Ejercicio 3.11.executor": "Run",
-    "Python.Ejercicio 3.12.executor": "Run",
-    "Python.Ejercicio 3.2.executor": "Run",
-    "Python.Ejercicio 3.3.executor": "Run",
-    "Python.Ejercicio 3.4.executor": "Run",
-    "Python.Ejercicio 3.5.executor": "Run",
-    "Python.Ejercicio 3.6.executor": "Run",
-    "Python.Ejercicio1.3.executor": "Run",
-    "Python.Ejercicio1.6 alternativo.executor": "Run",
-    "Python.Ejercicio1.6.executor": "Run",
-    "Python.Ejercicio1.7.executor": "Run",
-    "Python.Ejercicio1.8.executor": "Run",
-    "Python.Ejercicio2.1.executor": "Run",
-    "Python.Ejercicio3.executor": "Run",
-    "Python.Ejercicio4.executor": "Run",
-    "Python.Ejercicio5.executor": "Run",
-    "Python.Ejercico 3.11 bisbis.executor": "Run",
-    "Python.Gráficos.executor": "Run",
-    "Python.TareaClase.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Bisección clase.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.11 (ds como parámetro).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.11 bis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.11 iterativo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.11 recursivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 3.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.6 alternativo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio2.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercico 3.11 bisbis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gráficos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lagrange (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lagrange.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Spline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TareaClase.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\laris\Downloads\Cálculo_Numérico\Ejercicio Clase" />
@@ -393,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723830092618</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="11, ahora con derivada segunda como parámetro de string. SOLUCIONA CÁLCULO PUNTO ELEGIDO.">
+      <option name="closed" value="true" />
+      <created>1724508520852</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1724508520852</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -414,6 +423,7 @@
     <MESSAGE value="grafico" />
     <MESSAGE value="todas las versiones del 11" />
     <MESSAGE value="11 funcionando (iterativo y recursivo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="11 funcionando (iterativo y recursivo)" />
+    <MESSAGE value="11, ahora con derivada segunda como parámetro de string. SOLUCIONA CÁLCULO PUNTO ELEGIDO." />
+    <option name="LAST_COMMIT_MESSAGE" value="11, ahora con derivada segunda como parámetro de string. SOLUCIONA CÁLCULO PUNTO ELEGIDO." />
   </component>
 </project>

@@ -1,0 +1,34 @@
+import math
+import sympy
+
+# Definir la variable simbólica
+x = sympy.symbols('x')
+
+# Función original, ahora representada simbólicamente
+funcion = sympy.exp(-x**2)
+
+# Inicializar el polinomio de Taylor y otras variables
+taylor = 0
+orden = 0
+h = 0.001
+resultado = 0
+
+# Calculamos el primer término (orden 0) de la expansión de Taylor
+taylor += funcion.subs(x, 0)  # Valor de la función en x=0
+
+# Iteramos para calcular los siguientes términos (derivadas)
+while orden < 5:
+    # Derivada de la función en orden 'orden'
+    derivada = sympy.diff(funcion, x, orden + 1)
+    # Evaluamos la derivada en x=0
+    valor_derivada = derivada.subs(x, 0)
+    # Añadimos el término correspondiente de la expansión de Taylor
+    taylor += (valor_derivada / math.factorial(orden + 1)) * (h ** (orden + 1))
+    orden += 1
+
+# Usamos 'i' para evaluar el polinomio de Taylor en diferentes valores de 'i'
+for i in range(0, 200, 1):  # Ajustamos el rango de 'i'
+    resultado += taylor.subs(x, i * 0.01)  # Evaluamos el polinomio en puntos i*0.01
+
+# Mostrar el resultado
+print(f"Resultado de la aproximación de Taylor sumada: {resultado}")

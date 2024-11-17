@@ -1,0 +1,19 @@
+import math
+
+def Taylor_Orden3(x0, y0, b, h, funcion):
+    n = int((b - x0) / h)
+    x = x0
+    y = y0
+    k = 0
+    while k <= n:
+        print(k, x, y)
+        yp = eval(funcion)
+        ys = eval(funcion.replace('y', 'yp'))
+        yt = eval(funcion.replace('y', 'ys'))
+        y = y + h * (yp + (h / 2) * (ys + (h / 3) * yt))
+        x = x + h
+        k = k + 1
+
+# Ejemplo de uso
+funcion = '(y + math.e + x * y) / x'
+Taylor_Orden3(1, 2, 3, 0.01, funcion)
